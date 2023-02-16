@@ -42,6 +42,11 @@ public class TempEmploee extends StaffEmployee
     //-----------------------------------------------------------------
     public String toString()
     {
-
+        return "Name: " + this.name + "\n" +
+                "Address: " + this.address + "\n" +
+                "Phone: " + this.phone + "\n" +
+                "Social Security Number " + this.socialSecurityNumber + "\n" +
+                "Current hours: " + this.hoursWorked + "\n" +
+                "Paid: " + this.pay() + "\n";
     }
 }
