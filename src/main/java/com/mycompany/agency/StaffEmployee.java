@@ -27,7 +27,11 @@ public class StaffEmployee extends StaffMember
     //-----------------------------------------------------------------
     public String toString()
     {
-    
+        return "Name: " + this.name + "\n"
+                + "Address: " + this.address + "\n"
+                + "Phone: " + this.phone + "\n"
+                + "Social Security Number: " + this.socialSecurityNumber + "\n"
+                + "Paid: " + this.pay() + "\n";
     }
 
     //-----------------------------------------------------------------
