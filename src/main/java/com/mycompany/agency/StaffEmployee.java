@@ -39,6 +39,6 @@ public class StaffEmployee extends StaffMember
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+       return this.payRate;
     }
 }
