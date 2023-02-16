@@ -3,7 +3,7 @@ package com.mycompany.agency;
 
 
 // TODO 1: Make this class work and public
- class StaffMember
+ class StaffMember 
 {
     protected String name;
     protected String address;
