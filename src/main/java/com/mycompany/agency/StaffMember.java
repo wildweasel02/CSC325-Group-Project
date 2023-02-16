@@ -25,7 +25,7 @@ public abstract class StaffMember
     //-----------------------------------------------------------------
     public String toString()
     {
-
+        return "Name: " + this.name + "\n" + "Address: " + this.address + "\n" + "Phone number: " + this.phone;
     }
 
     //-----------------------------------------------------------------
