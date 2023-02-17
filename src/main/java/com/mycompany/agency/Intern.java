@@ -12,7 +12,7 @@ public class Intern
     //-----------------------------------------------------------------
     public Intern(String eName, String eAddress, String ePhone)
     {
-        
+        super(eName, eAddress, ePhone, null, 0.00);
     }
 
     //-----------------------------------------------------------------
