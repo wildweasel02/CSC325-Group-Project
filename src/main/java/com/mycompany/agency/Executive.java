@@ -10,9 +10,7 @@ public class Executive extends StaffEmployee
     //  Constructor: Sets up this executive with the specified
     //  information.
     //-----------------------------------------------------------------
-    public Executive(String eName, String eAddress, String ePhone,
-            String socSecNumber, double rate)
-    {
+    public Executive(String eName, String eAddress, String ePhone, String socSecNumber, double rate) {
         super(eName, eAddress, ePhone, socSecNumber, rate);
 
         bonus = 0;  // bonus has yet to be awarded
@@ -32,6 +30,7 @@ public class Executive extends StaffEmployee
     //-----------------------------------------------------------------
     public double pay()
     {
-       
+       double payment = super.payRate + bonus;
+       return payment;
     }
 }
